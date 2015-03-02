@@ -1,0 +1,39 @@
+/*global*/
+
+body{
+background:url("../img/bg.png");
+
+}
+
+/* layout */
+
+.container{
+	background:red;
+	margin:0 auto;
+	width:90%;
+}
+
+article section{
+		width:46%;
+		float:left;
+		padding:2%;
+}
+
+/* Adpative Content*/
+
+iframe, img{
+	width:100%;
+	max-width: 100%;
+
+}
+
+/*media queries*/
+
+/*desktop*/
+
+@media (min-width:960px){
+	#home{
+		width:300px;}
+
+
+}
