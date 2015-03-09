@@ -33,7 +33,33 @@ iframe, img{
 
 @media (min-width:960px){
 	#home{
-		width:300px;}
+		width:300px;
+	}
+	#youtube-big{
+		display:none;
+	}
+
+}
+
+/*tablet*/
+@media (min-width:768px){
+		#youtube-big{
+		display:block;
+	}
+	#youtube-med{
+	display:none;}
 
 
 }
+
+/*mobile*/
+@media (min-width:480px){
+
+	article section{
+		float:none;
+		max-width:100%;
+	}
+	
+
+}
+
