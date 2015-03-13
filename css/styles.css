@@ -53,7 +53,7 @@ max-width: 100px;
 }
 
 
-/*menu CREDIT TO CODEPEN USER */
+/*menu CREDIT TO CODEPEN USER VAVIK96*/
 
 
 
@@ -136,30 +136,68 @@ iframe, img{
 
 /*desktop*/
 
-@media (max-width:960px){
-	#home{
-		width:300px;
-	}
+@media (max-width:1214px){
+    
+    #home{
+        font-size:82px;
+    }
+    .container{
+        width:90%;
+    }
 	#youtube-big{
 		display:none;
 	}
 
 }
 
+@media(max-width:800px){
+    
+            #home{
+        font-size:68px;
+    }
+}
+
 /*tablet*/
-@media (max-width:768px){
+@media (max-width:593px){
+        #home{
+        font-size:58px;
+    }
+    
+        .container{
+        width:90%;
+    }
 		#youtube-big{
 		display:block;
 	}
 	#youtube-med{
 	display:none;}
+    
+    
+	article section{
+		float:none;
+		max-width:100%;
+	}
+	    article{
+height: 1858px;
+}
+    
 
 
 }
 
 /*mobile*/
 @media (max-width:480px){
+            #home{
+        font-size:44px;
 
+    }
+    .container{
+        width:95%;
+    }
+    article{
+height: 1800px;
+}
+    
 	article section{
 		float:none;
 		max-width:100%;
