@@ -36,7 +36,7 @@ font-size:100px;
 padding-top: 100px;
 margin-bottom: -18px;
 transition-property: transform;
-transition-duration: 1.5s;
+transition-duration: 1s;
 transition-timing-function: linear;
 color:red;
 }
@@ -48,10 +48,15 @@ color:skyblue;
 
 
 #up{
-
 max-width: 100px;
+    transition-property: transform;
+transition-duration: .25s;
+transition-timing-function: linear;
 }
 
+#up:hover{
+transform:scale(1.25);
+}
 
 /*menu CREDIT TO CODEPEN USER VAVIK96*/
 
